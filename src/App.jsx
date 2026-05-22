@@ -57,9 +57,7 @@ export default function App() {
           <button className="btn" onClick={() => setOpen(true)}>
             اضغط هنا 🎁
           </button>
-          <button className="btn-love" onClick={() => setShowLove(true)}>
-            😏 Clique ici
-          </button>
+         
         </div>
       ) : open && !showLove ? (
         <div className="card">
